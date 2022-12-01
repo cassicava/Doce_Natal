@@ -66,10 +66,12 @@ h1{
     padding-top: 10px;
 }
 
-h2{
+a{
+    text-decoration: none;
+    color: black;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Frank Ruhl Libre', serif;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 /* rodape */
@@ -83,15 +85,18 @@ h2{
 .natalimg{
     width: 100%;
     height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 h4{
     color:black;
     text-align: center;
     font-size: 48px;
-    padding: 5px;
-    background-color: #ebbf9ec0;
+    padding: 15px;
+    background: #ebbf9ec0;
+background: linear-gradient(180deg, #ebbf9ec0 75%, rgba(0, 0, 0, 0.4) 99%);
     font-family: 'Dancing Script', cursive;
   
 }
@@ -113,16 +118,16 @@ main{
 }
 
 main img{
-    height: 90%;
-    width: 90%;
+    height: 95%;
+    width: 95%;
     border-radius: 30px;
     margin-top: 15px;
     margin-bottom: 40px;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 h3{
-    font-size: 36px;
+    font-size: 38px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
