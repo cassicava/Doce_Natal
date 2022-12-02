@@ -44,7 +44,7 @@ h1{
 
 .rodape{
     height: 40px;
-    background-color: #ebbf9ec0;
+    background: #ebbf9ec0;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -96,7 +96,7 @@ h4{
     font-size: 48px;
     padding: 15px;
     background: #ebbf9ec0;
-    background: linear-gradient(180deg, #ebbf9ec0 80%, rgba(0, 0, 0, 0.558) 100%);
+    background: linear-gradient(180deg, #ebbf9ec0 75%, rgba(103, 33, 70, 0.749) 100%);
     font-family: 'Dancing Script', cursive;
   
 }
